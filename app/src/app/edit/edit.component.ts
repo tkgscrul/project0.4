@@ -58,10 +58,7 @@ export class EditComponent implements OnInit {
     
     
   }
-toaddusers(shem, user, mail){
-  this.newuserarr.push(`${shem}  ${user} ${mail}`);
-  console.log(this.users$);
-}
+
   
 
 
