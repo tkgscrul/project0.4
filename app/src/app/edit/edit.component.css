@@ -1,0 +1,53 @@
+
+div{
+  border: black solid 3px;
+  border-radius: 10px;
+  display: block;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: white;
+    position: relative;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    border: solid black;
+    border-radius: solid black 3px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+  }
+  button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 39.2%;
+    }
+    select{
+      height: 16px;
+      padding: 12px 14px;
+      background-color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      left: 712px;
+    }
+    input{
+      height: 16px;
+      padding: 12px 14px;
+      background-color: #fff;
+      border-radius: 4px;
+      position: relative;
+      left: 712px;
+    }
+   

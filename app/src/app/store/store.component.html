@@ -1,0 +1,8 @@
+<button (click)='logout()'>Click here to LogOut</button>
+<button (click)='edit()'>Edit</button>
+<h1>Extended List of Users</h1>
+<div *ngFor='let user of users$'>
+  <h2>{{ user.name }} - {{ user.id }}</h2>
+  <P><strong>Username</strong>:{{ user.username}}</P>
+  <p><strong>Email</strong>:{{user.email}} </p>
+</div>

@@ -1,0 +1,15 @@
+<h1> LOGIN TO USER DATA APP ! </h1>
+<button (click)="loginWithGoogle()"> 
+    <img src="/assets/loginWithGoogle.png" />
+    <p>log in with Google</p><br>
+    <P>To see Futher Detail information</P>
+</button>
+<h1>its working</h1>
+<div *ngFor='let user of users$'>
+  <div #thisdiv>
+  <h2>{{ user.name }} - {{ user.id }}</h2>
+</div>
+ 
+
+
+</div>

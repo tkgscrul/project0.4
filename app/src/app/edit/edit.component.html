@@ -1,0 +1,40 @@
+
+
+<h1>Pick an User To edit</h1>
+
+
+  <select #select>
+    <option value="0"> 1 </option>
+    <option value="1"> 2 </option>
+    <option value="2"> 3 </option>
+    <option value="3"> 4 </option>
+    <option value="4"> 5 </option>
+    <option value="5"> 6 </option>
+    <option value="6"> 7 </option>
+    <option value="7"> 8 </option> 
+    <option value="8"> 9 </option>
+    <option value="9"> 10 </option>
+    </select>
+  
+  <button (click)='editUsers(select.value)'>remove user</button>
+  <button (click)='resetUsers()'>reset users</button>
+  <button (click)='back()'>Go back</button>
+  <br>
+  <input #name placeholder="Name" type="text">
+  <input #user placeholder="UserName" type="text">
+  <input #email placeholder="Email" type="text">
+  <button (click)='toaddusers(name.value, user.value, email.value)'></button>
+  
+
+
+<h1>Extended List of Users *EDIT</h1>
+<div *ngFor='let user of users$'>
+  <h2>{{ user.name }} - {{ user.id }}</h2>
+  <P><strong>Username</strong>:{{ user.username}}</P>
+  <p><strong>Email</strong>:{{user.email}} </p>
+</div>
+<div *ngFor='let ele of newuserarr'>
+<h5>
+  {{ele}}
+</h5>
+</div>
